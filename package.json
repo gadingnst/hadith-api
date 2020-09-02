@@ -1,0 +1,28 @@
+{
+  "name": "hadith-api",
+  "version": "1.0.0",
+  "main": "api/server.ts",
+  "repository": "https://github.com/sutanlab/hadith-api.git",
+  "author": "Sutan Nasution. <sutan.gnst@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "ts-node api/Server.ts",
+    "dev": "nodemon --exec 'ts-node' api/Server.ts",
+    "crawl": "ts-node crawler/script.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "puppeteer": "^5.2.1",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/node": "^14.6.2",
+    "@types/puppeteer": "^3.0.1",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0"
+  }
+}
