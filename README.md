@@ -23,7 +23,7 @@
 
 ### Endpoint usage
 - [x] `/books` = Returns the list of available Hadith Books.
-- [x] `/books/{surah}?range={number}-{number}` = Returns hadiths by range of number. **Example: `/books/muslim?range=300-500`**. *(Note: For performance reasons, max accepted range: 300)*
+- [x] `/books/{name}?range={number}-{number}` = Returns hadiths by range of number. **Example: `/books/muslim?range=300-500`**. *(Note: For performance reasons, max accepted range: 300)*
 - [x] `/books/{name}/{number}` = Returns spesific hadith. **Example: `/books/bukhari/52`**
 - [ ] Your requests ?
 
