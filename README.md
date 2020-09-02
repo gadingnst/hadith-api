@@ -30,7 +30,7 @@
 ### Example Response
 > Fetching on [HR. Muslim No. 5](https://api.hadith.sutanlab.id/books/muslim/5)
 
-[![`/books/muslim/5`](https://raw.githubusercontent.com/sutanlab/hadith-api/master/screenshots/example-result.jpeg)](https://raw.githubusercontent.com/sutanlab/hadith-api/master/screenshots/example-result.jpeg)
+[![`/books/muslim/5`](https://raw.githubusercontent.com/sutanlab/hadith-api/master/screenshots/example-result.png)](https://raw.githubusercontent.com/sutanlab/hadith-api/master/screenshots/example-result.png)
 
 ### Recommended Arabic Fonts 
 - [quran.musil.com](http://quran.mursil.com/Web-Print-Publishing-Quran-Text-Graphics-Fonts-and-Downloads/fonts-optimized-for-quran)
