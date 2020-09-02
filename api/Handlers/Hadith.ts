@@ -75,7 +75,7 @@ class HadithHandler extends Handler {
         const requestedRange = (to - from) + 1
         if (requestedRange > 300) this.setHttpError({
           code: 400,
-          message: `Reached max number of hadits requested. Max: 300, but you request ${requestedRange}.`
+          message: `Reached max number of hadiths requested. Max: 300, but you request ${requestedRange}.`
         })
 
         const hadith = Hadith.getByName(name)
@@ -86,6 +86,7 @@ class HadithHandler extends Handler {
         
         const data = Hadith.getByNumberRange(hadith, from, to)
         const total = hadith.length
+        const totalRequested = data.length
         if (to > total) this.setHttpError({
           code: 400,
           message: `Out of range hadith on ${hadithName}`
@@ -93,13 +94,13 @@ class HadithHandler extends Handler {
         
         this.sendHttp(res, {
           code: 200,
-          message: `${data.length} hadits requested.`,
+          message: `${totalRequested} hadiths requested.`,
           data: {
             name: `HR. ${hadithName}`,
             id: name,
             available: total,
-            requested: requestedRange,
-            hadits: data
+            requested: totalRequested,
+            hadiths: data
           }
         })
       } else {
