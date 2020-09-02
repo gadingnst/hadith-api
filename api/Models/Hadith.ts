@@ -20,7 +20,7 @@ const basePath = __dirname + '/../../books'
 const allHadiths = readdirSync(basePath).reduce((acc, hadith) => {
   if (hadith.endsWith('.json')) {
     const name = hadith.replace(/.json/gi, '')
-    acc[name] = require(`${basePath}/${hadith}`)
+    acc[name] = require(`../../books/${hadith}`)
   }
   return acc
 }, {} as Hadiths)
