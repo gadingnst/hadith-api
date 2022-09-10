@@ -2,7 +2,7 @@
 
 > Simple Islamic Hadith API with Indonesia Translation.
 
-## Deployed in: https://api.hadith.sutanlab.id
+## Deployed in: https://api.hadith.gading.dev
 
 ### Data Source
 - [x] [tafsirq.com](https://tafsirq.com/hadits)
@@ -27,8 +27,8 @@
 
 ### Endpoint usage
 - [x] `/books` = Returns the list of available Hadith Books.
-- [x] `/books/{name}?range={number}-{number}` = Returns hadiths by range of number. **Example: [/books/bukhari?range=300-500](https://api.hadith.sutanlab.id/books/bukhari?range=300-500)**. *(Note: For performance reasons, max accepted range: 300)*
-- [x] `/books/{name}/{number}` = Returns spesific hadith. **Example: [/books/muslim/5](https://api.hadith.sutanlab.id/books/muslim/5)**
+- [x] `/books/{name}?range={number}-{number}` = Returns hadiths by range of number. **Example: [/books/bukhari?range=300-500](https://api.hadith.gading.dev/books/bukhari?range=300-500)**. *(Note: For performance reasons, max accepted range: 300)*
+- [x] `/books/{name}/{number}` = Returns spesific hadith. **Example: [/books/muslim/5](https://api.hadith.gading.dev/books/muslim/5)**
 
 ### Example Response
 > Fetching on [HR. Muslim No. 5](https://api.hadith.sutanlab.id/books/muslim/5)
