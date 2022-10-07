@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [{
     "src": "server.ts",
-    "use": "@now/node-server"
+    "use": "@vercel/node"
   }],
   "routes": [{
     "src": "/.*",
