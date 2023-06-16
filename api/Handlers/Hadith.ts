@@ -13,7 +13,7 @@ class HadithHandler extends Handler {
         data
       })
     } catch (err) {
-      this.handleHttpError(req, res, err)
+      this.handleHttpError(req, res, err as Error)
     }
   }
 
@@ -35,10 +35,11 @@ class HadithHandler extends Handler {
       })
 
       const contents = Hadith.getByNumber(hadith, parsedNumber)
-      if (!hadith) this.setHttpError({
-        code: 404,
-        message: `HR. ${hadithName} No. ${parsedNumber} not available.`
-      })
+      if (!contents)
+          this.setHttpError({
+              code: 404,
+              message: `HR. ${hadithName} No. ${parsedNumber} not available.`,
+          });
 
       this.sendHttp(res, {
         code: 200,
@@ -51,7 +52,7 @@ class HadithHandler extends Handler {
         }
       })
     } catch (err) {
-      this.handleHttpError(req, res, err)
+      this.handleHttpError(req, res, err as Error)
     }
   }
 
@@ -110,7 +111,7 @@ class HadithHandler extends Handler {
         })
       }
     } catch (err) {
-      this.handleHttpError(req, res, err)
+      this.handleHttpError(req, res, err as Error)
     }
   }
 

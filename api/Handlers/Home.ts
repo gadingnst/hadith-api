@@ -26,7 +26,7 @@ class HomeHandler extends Handler {
         }
       })
     } catch (err) {
-      this.handleHttpError(req, res, err)
+      this.handleHttpError(req, res, err as Error)
     }
   }
 
