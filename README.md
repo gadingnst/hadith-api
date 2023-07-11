@@ -3,9 +3,9 @@
 > Simple Islamic Hadith API with Indonesia Translation.
 
 ### Deploy
-Already deployed in https://api.hadith.gading.dev
+Already deployed in [https://api.hadith.gading.dev] or you can deploy your own at:
 
-or you can [![Deploy your own with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%gadingnst%hadith-api)
+[![Deploy your own with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%gadingnst%hadith-api)
 
 
 ### Data Source
