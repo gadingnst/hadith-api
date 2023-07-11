@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "api/server.ts",
   "repository": "https://github.com/gadingnst/hadith-api.git",
-  "author": "Sutan Nasution. <sutan.gnst@gmail.com>",
+  "author": "Gading Nasution. <contact@gading.dev>",
   "license": "MIT",
   "private": false,
   "scripts": {
