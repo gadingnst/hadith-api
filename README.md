@@ -31,9 +31,9 @@
 - [x] `/books/{name}/{number}` = Returns spesific hadith. **Example: [/books/muslim/5](https://api.hadith.gading.dev/books/muslim/5)**
 
 ### Example Response
-> Fetching on [HR. Muslim No. 5](https://api.hadith.sutanlab.id/books/muslim/5)
+> Fetching on [HR. Muslim No. 5](https://api.hadith.gading.dev/books/muslim/5)
 
-[![`/books/muslim/5`](https://raw.githubusercontent.com/sutanlab/hadith-api/master/screenshots/example-result.png)](https://raw.githubusercontent.com/sutanlab/hadith-api/master/screenshots/example-result.png)
+[![`/books/muslim/5`](https://raw.githubusercontent.com/gadingnst/hadith-api/master/screenshots/example-result.png)](https://raw.githubusercontent.com/gadingnst/hadith-api/master/screenshots/example-result.png)
 
 ### Recommended Arabic Fonts 
 - [quran.musil.com](http://quran.mursil.com/Web-Print-Publishing-Quran-Text-Graphics-Fonts-and-Downloads/fonts-optimized-for-quran)
@@ -54,8 +54,8 @@ MIT
 
 ### Indonesia
 - Bank Syariah Mandiri [REK: 7142365973 (SUTAN GADING F NASUTION)]
-- [Trakteer](https://trakteer.id/sutanlab)
-- [Karyakarsa](https://karyakarsa.com/sutanlab)
+- [Trakteer](https://trakteer.id/gadingnst)
+- [Karyakarsa](https://karyakarsa.com/gadingnst)
 
 ---
 Copyright © 2020 by Sutan Gading Fadhillah Nasution

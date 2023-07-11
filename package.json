@@ -2,7 +2,7 @@
   "name": "hadith-api",
   "version": "1.0.0",
   "main": "api/server.ts",
-  "repository": "https://github.com/sutanlab/hadith-api.git",
+  "repository": "https://github.com/gadingnst/hadith-api.git",
   "author": "Sutan Nasution. <sutan.gnst@gmail.com>",
   "license": "MIT",
   "private": false,
